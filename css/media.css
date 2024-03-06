@@ -1,0 +1,168 @@
+/* -------header media------- */
+@media (max-width:600px) {
+    .container{
+        width: 90%;
+    }
+    .header-main-box{
+        flex-direction: column;
+    }
+    .header-left-content ul{
+        flex-direction: column;
+    }
+    .header-left-content ul li {
+        padding: 5px 15px;
+        text-align: center;
+    }
+    .header-right-content{
+        text-align: center;
+    }
+    .navbar{
+        flex-direction: column;
+    }
+    #logo{
+       padding: 40px 0 10px 18px;;
+    }
+    #myicon{
+        opacity: 1;
+        margin: -42px 0 0 290px;
+        color: #51be78;
+        font-size: 20px;
+        cursor: pointer;
+     }
+     #chk{
+        opacity: 0;
+        margin: -13px 0 0 282px;
+        cursor: pointer;
+     }
+    .navbar ul{
+        flex-direction: column;
+        width: 100%;
+        position: relative;
+        top: 0;
+        left: -140px;
+        transition: all 0.3s linear;
+    }
+    .navbar ul li{
+        padding: 30px 0 0 25px;
+    }
+    .social-icons{
+        margin: 30px 0 0 25px;
+    }
+    .social-icons i{
+      
+    }
+    #chk:checked ~ ul{
+        left: 0;
+    }
+
+/* -------banner media-------- */
+.banner-title{
+    font-size: 3rem;
+}
+
+/* -------Academic-work-section media------ */
+.academic-box-content{
+    flex-direction: column;
+}
+.academic-box{
+    width: 100%;
+    margin-bottom: 30px;
+}
+/* -------courses section media--------- */
+#course-section {
+    padding:0 0;
+    margin-top: -20px;
+ }
+.course-content-box{
+    flex-direction: column;
+    margin-top: 3rem ;
+}
+.course-box{
+ width: 100%;
+ margin-bottom: 40px;
+}
+/* -------About section media--------- */
+.about-content{
+    flex-direction: column;
+}
+.text-left-title{
+    padding: 60px 0px 0 0px;
+    width: 280px
+}
+.about-lead-pra{
+    width: 100%;
+    margin-top: -50px;
+    padding-left: 0;
+}
+
+/* --------------site section--------------- */
+.site-content{
+ flex-direction: column;
+   }
+   .employee-designations{
+    width: 100%;
+    padding: 0 0;
+   }
+/* --------------target-section------------- */
+.target-content{
+    flex-direction: column;
+}
+.target-content-data{
+    width: 100%;
+    margin-bottom: 30px;
+}
+/* -----------news and update section--------------------- */
+.news-update-content{
+     flex-direction: column;
+ }
+ .news-update-content-data{
+    width: 100%;
+    padding: 40px 0;
+  }
+  .news-update-blogs-data{
+    width: 100%;
+    padding-left: 0;
+  }
+  
+  .news-update-campus{
+    width: 100%;
+    margin-left: 0;
+ }
+ .text-right-title{
+    padding-top: 20px;
+ }
+ 
+ .news-update-campus-box-img img{
+    width:100%
+ }
+ /* -----------email section--------------- */
+ .email-section-box{
+    flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
+ }
+ .email-section-text {
+    width: 100%;
+
+ }
+ .email-section-form {
+    width: 100%;
+ }
+ .email-section-bar input {
+    width: 67%;
+  }
+  /*---------------- footer section------------------ */
+  footer{
+    padding-left: 0;
+  }
+  .footer-column h3{
+    margin-top: 30px;
+  }
+  .footer-content {
+    flex-direction: column;
+ }
+ .footer-column {
+    width: 90%;
+ }
+ 
+}
